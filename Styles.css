@@ -1,0 +1,34 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: fit-content;
+	width: -moz-fit-content;
+	margin: 200px auto;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: grey;
+}
+
+input[type="text"] {
+	border-radius: 10px;
+	width: 152px;
+	height: 20px;
+	margin-bottom: 10px;
+	background-color: black;
+	color: #009933;
+}
+
+button {
+	padding: 10px;
+	margin: 1px;
+	border-radius: 10px;
+	width: 50px;
+}
+
+button:nth-of-type(1) {
+	color: red;
+}
