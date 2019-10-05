@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #f0e4e4;
+}
+
+.container {
+  height: max-content;
+  background: #dec3c3;
+  display: flex;
+  margin: 10px;
+}
+
+.item {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.item-1{ 
+  background: #451e3e;
+  transition: all 1s ease;
+  height: 150px;
+  width: 150px;
+}
+
+.item-1:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 14px 21px 69px -8px #451e3e;
+}
